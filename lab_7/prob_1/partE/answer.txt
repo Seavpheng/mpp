@@ -1,0 +1,13 @@
+When the type D is a class and A, B, C are interfaces:
+Case 1:
+interface A has default implements display(){} method
+interface B extend A has display() method;
+class D requires to implement override display() method.
+
+Case 2:
+interface A has display() method,
+interface B has default implements display(){} method
+class D not requires to implement override display() method.
+
+When the type D is an interface also
+-interface D shall implement default method in order to prevent clash.

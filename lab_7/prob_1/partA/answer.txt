@@ -1,0 +1,1 @@
+In an earlier lesson, ArrayList extends AbstractList, and implements interface of List, RandomAccess, Cloneable, java.io.Serializable.

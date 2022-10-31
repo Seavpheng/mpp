@@ -1,0 +1,7 @@
+a1
+no parameter
+free variables: s, t
+
+a2
+parameter: s, t
+free variable: ignoreCase
